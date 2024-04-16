@@ -13,11 +13,11 @@ class Game:
         for row in range(ROWS):
             for col in range(COLS):
                 if (row + col) % 2 == 0:
-                    color = (234, 235, 200)
+                    color = (89, 96, 112)
                 else:
-                    color = (119, 154, 88)
+                    color = (234, 240, 216)
 
-                rect = (col *SQZIZE, row * SQZIZE, SQZIZE, SQZIZE)
+                rect = (col * SQZIZE, row * SQZIZE, SQZIZE, SQZIZE)
 
                 pygame.draw.rect(surface, color, rect)
 
